@@ -22,4 +22,5 @@ Message {
     tumbler.each((pin) -> {if pin(message) tumbler.remove(pin)}
     if tumbler.empty queue.post(payload)
   }
+}
 ```
